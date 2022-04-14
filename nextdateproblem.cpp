@@ -26,7 +26,6 @@ int main() {
             if (month == 2) {	//checking for February
                 if (leapyear(year)) {  //leap year check in case of February
                     day = 29;
-                    cout << "is a leap year" << endl;
                 } else {
                     day = 1;
                     month = 3;
